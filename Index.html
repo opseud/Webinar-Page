@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="home">
+        <!-- <p>April 9, 2022</p> -->
+        <h1>Data Science with PYTHON</h1>
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Possimus eos natus nisi cupiditate ut delectus porro quisquam distinctio corporis repellat,
+            provident voluptatum, 
+            voluptate, ex numquam atque fugiat iure illum nesciunt.
+        </P>
+
+        <form class="form">
+            <div class="names">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter your first name" required>
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter your Last name" required>
+                </div>
+            </div>
+
+            <div class="emails">
+                <div>
+                    <label>Business email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label>Title</label>
+                    <input type="text" placeholder="What is  your job title?" required>
+                </div>
+            </div>
+
+            <div class="company">
+                <div>
+                    <label>Company Name</label>
+                    <input type="text" placeholder="Where do you work?" required>
+                </div>
+                <div class="dropdown">
+                    <label>Company size</label>
+                    <select value="Select">
+                        <option name="web-developer" id="web-developer">Web-Developer</option>
+                        <option name="Full-stack-web-developer" id="Full-stack-web-developer">Full-stack-web-developer</option>
+                        <option name="Frontend-web-developer" id="Frontend-web-developer">Frontend-web-developer</option>
+                        <option name="Backend-web-developer" id="Backend-web-developer">Backend-Web-Developer</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="message">
+                <div>
+                    <label>What are you hoping to learn?</label>
+                </div>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="I am hoping to learn about..." required></textarea>
+            </div>
+            
+            <div class="check">
+                <!-- <input type="checkbox"> -->
+                <p>I will like to receive emails about future webinars</p> 
+            </div>
+           
+            <button type="Submit">Register for this Event</button>
+        </form>
+    </section>
+    
+</body>
+</html>
